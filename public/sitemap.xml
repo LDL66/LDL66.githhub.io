@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://192.168.56.102/</loc>
+    <lastmod>2022-12-10T15:46:20+08:00</lastmod>
+  </url><url>
+    <loc>http://192.168.56.102/post/</loc>
+    <lastmod>2022-12-10T15:46:20+08:00</lastmod>
+  </url><url>
+    <loc>http://192.168.56.102/post/zuoye/</loc>
+    <lastmod>2022-12-10T15:46:20+08:00</lastmod>
+  </url><url>
+    <loc>http://192.168.56.102/post/biji/</loc>
+    <lastmod>2022-12-10T15:24:18+08:00</lastmod>
+  </url><url>
+    <loc>http://192.168.56.102/categories/</loc>
+  </url><url>
+    <loc>http://192.168.56.102/tags/</loc>
+  </url>
+</urlset>
