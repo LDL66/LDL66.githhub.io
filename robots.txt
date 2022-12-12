@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: http://192.168.56.102/sitemap.xml
+Sitemap: https://ldl66.github.io/sitemap.xml
