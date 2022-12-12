@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on ExampleSite</title>
+    <link>http://192.168.56.102/post/</link>
+    <description>Recent content in Posts on ExampleSite</description>
+    <image>
+      <url>http://192.168.56.102/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://192.168.56.102/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 10 Dec 2022 15:46:20 +0800</lastBuildDate><atom:link href="http://192.168.56.102/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>大作业完成步骤记录</title>
+      <link>http://192.168.56.102/post/zuoye/</link>
+      <pubDate>Sat, 10 Dec 2022 15:46:20 +0800</pubDate>
+      
+      <guid>http://192.168.56.102/post/zuoye/</guid>
+      <description>*一、实验内容和要求:* 1.在Linux下，安装git，使用git管理大作业相关的代码、配置文件等，要求有能反映大作业过程的git提交记录。 安装git：
+dnf install -y git git --version 配置git：
+git config --global user.name &amp;#34;林大大&amp;#34; git config --global user.email &amp;#34;11271446+da-da-lin@user.noreply.gitee.com&amp;#34; mkdr linux-homework cd linux-homework git init touch README.md git add README.md git commit -m &amp;#34;first commit&amp;#34; git remote add origin https://gitee.com/da-da-lind/linux-homework.git git push -u origin &amp;#34;master&amp;#34; 2.在Linux下，利用 socket 技术编写程序，包含客户端和服务端，实现两者之间的信息传递。 a) 加分项：使用容器技术（如Docker或Podman），将socket客户端和服务端分别运行在不同的容器中，实现socket客户端和服务端之间的信息传递。 Socket 服务端： Socket客户端： vim server.c ./server vim client.c ./client 安装docker：
+yun install -y docker-engine.x86_64 docker version 下载镜像：
+docker pull gcc docker images 编写服务端和客户端的Dockerfile文件： 创建两个镜像：</description>
+    </item>
+    
+    <item>
+      <title>Linux课程中的学习笔记</title>
+      <link>http://192.168.56.102/post/biji/</link>
+      <pubDate>Sat, 10 Dec 2022 15:24:18 +0800</pubDate>
+      
+      <guid>http://192.168.56.102/post/biji/</guid>
+      <description>Linux课程中的学习笔记 1.文件系统命令 1.1、文件目录结构 1.2、命令详解 pwd（显示当前工作目录的绝对路径） 例如：
+​	✦ 绝对路径 从根目录算起的路径叫做绝对路径 【可以理解为全路径】
+例如:
+​	✦/home/python/Desktop ​	✦/usr/bin 【可以直接使用 cd /home/】
+相对路径 从当前目录算起的路径叫做相对路径
+例如:
+​	✦./test/hello ​	✦../static/images
+绝对路径和相对路径的使用 1.使用绝对路径切换到桌面
+cd /home/python/Desktop 2.在下载录以相对路径切换到桌面
+cd Downloads cd ../Desktop ​	3.在桌面使用相对路径切换到上一级目录的上一级目录
+cd Desktop cd ../../ find（查找目录或文件） tar（解压包） tar打包跟解包都都需要使用对应文件名后缀的选项
+zip（解压包） 如果没有zip、unzip命令，需要先安装
+sudo yun install zip unzip (openeuler/centos/redhat)
+sudo apt install zip unzip (deepin/debian/ubuntu)
+使用方法：
+zip -r dir.zip dir （打包 -r表示递归打包）
+unzip dir.zip （解包）
+2.重定向和管道 2.1重定向 重定向标准输出：&amp;gt;(输出到指定文件)	&amp;raquo;（追加输出到指定文件）</description>
+    </item>
+    
+  </channel>
+</rss>
